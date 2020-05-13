@@ -1,0 +1,32 @@
+/* html {
+  font-size: 62.5%;
+} */
+
+.nav-row {
+  background-color: #383838;
+  color: #888;
+}
+
+.nav-row a {
+  color: #888;
+  text-transform: uppercase;
+}
+
+.nav button {
+  background-color: #d35266;
+  border: navajowhite;
+}
+
+.nav .home a {
+  color: #d35266;
+}
+
+.nav-item a:hover,
+.nav-end a:hover{
+  color: #fff;
+}
+
+
+/* .nav-end img {
+  border-radius: 50%;
+} */
