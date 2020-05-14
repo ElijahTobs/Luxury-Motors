@@ -2,6 +2,22 @@
   font-size: 62.5%;
 } */
 
+/* Montserrat in place of Gotham */
+/* ROboto Condensed in place of Helvetica Neue */
+
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1355px;
+  margin: 0 auto;
+}
+
+.container,
+.container-fluid {
+  width: 100%;
+}
+
 .nav-row {
   background-color: #383838;
   color: #888;
@@ -21,9 +37,127 @@
   color: #d35266;
 }
 
+.nav li {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 .nav-item a:hover,
 .nav-end a:hover{
   color: #fff;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 260px;
+  background-color: #d35266;
+  width: 100%;
+}
+
+.hero-section h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.hero-section .btn {
+  background-color: #fff;
+  border-radius: 0;
+  /* border: none; */
+  /* max-width: 65px; */
+  /* height: 35px; */
+  /* padding-top: 4px; */
+}
+
+.hot-ad #carouselExampleControls {
+  width: 100%;
+}
+
+/* .hero-section input,
+button {
+  height: 35px;
+} */
+
+.input-group {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.input-group {
+  max-width: 900px;
+}
+
+.form-control {
+  border: none;
+  border-left: 1px solid #d35266;
+}
+
+.btn {
+  border-right: #d35266 1px solid;
+}
+
+button {
+  background-color: #383838;
+  color: #fff;
+  border: none;
+  border-left: #d35266 5px solid;
+}
+
+.hot-ad {
+  margin-top: 60px;
+  margin-left: 90px;
+}
+
+/* .hot-ad .carousel-item {
+  padding-left: 90px;
+} */
+
+.hot-ad img {
+  width: 100%;
+}
+
+.hot-ad .carousel-control-prev {
+  left: -9rem;
+}
+
+.hot-ad .prev-icon {
+  color: #d35266;
+  font-size: 30px;
+  border: #383838 1px solid;
+  border-radius: 50%;
+  padding: 5px;
+  width: 50px;
+}
+
+.hot-ad h2 {
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #d35266;
+}
+
+.purchase span {
+  background-color: #d35266;
+  color: #fff;
+  padding: 10px;
+}
+
+.arrows {
+  background-color: #383838;
+  padding: 0;
+}
+
+.image .arrows {
+  bottom: 0;
+  right: 0;
+}
+
+.arrows i {
+  color: #d35266;
+  font-size: 30px;
+  border-radius: 50%;
+  padding: 5px;
+  width: 30px;
 }
 
 
