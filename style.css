@@ -121,7 +121,8 @@ button {
   left: -9rem;
 }
 
-.hot-ad .prev-icon {
+.hot-ad .prev-icon,
+.next-icon {
   color: #d35266;
   font-size: 30px;
   border: #383838 1px solid;
