@@ -161,6 +161,44 @@ button {
   width: 30px;
 }
 
+.cars-section {
+  background-color: #f3f3f3;
+  border-top: #888 .5px solid;
+}
+
+.car-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* .car-container {
+  width: 80%;
+} */
+
+.section-info {
+  border-bottom: #888 .5px solid;
+}
+
+.carndet img {
+  width: 223px;
+  height: 160px;
+}
+
+.carndet {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.details {
+  padding: 15px 20px;
+}
+
+.view, .new, .price p {
+  color: #d35266;
+  font-weight: 700;
+}
+
 
 /* .nav-end img {
   border-radius: 50%;
