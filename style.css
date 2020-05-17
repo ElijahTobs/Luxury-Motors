@@ -16,6 +16,7 @@ body {
 .container,
 .container-fluid {
   width: 100%;
+  padding: auto 0;
 }
 
 .nav-row {
@@ -164,6 +165,7 @@ button {
 .cars-section {
   background-color: #f3f3f3;
   border-top: #888 .5px solid;
+  border-bottom: #888 .5px solid;
 }
 
 .car-container {
