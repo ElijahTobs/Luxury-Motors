@@ -257,6 +257,17 @@ button {
   border-bottom: 1px solid #888;
 }
 
+footer {
+  color: #888;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+.footer-icons i {
+  padding-left: 20px;
+}
 
 /* .nav-end img {
   border-radius: 50%;
