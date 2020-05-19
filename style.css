@@ -216,6 +216,48 @@ button {
   right: -50px;
 }
 
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.right {
+  border: 1px solid #888;
+  padding: 4px 0px;
+  width: 100px;
+  text-align: center;
+}
+
+.other p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.other span:not(.right),
+.change {
+  color: #d35266;
+  font-weight: 700;
+}
+
+.change {
+  border-bottom: 1px solid #d35266;
+  padding-bottom: 7px;
+}
+
+.footer-top li {
+  list-style: none;
+}
+
+.footer-top ul {
+  padding: 0;
+}
+
+.footer-top {
+  border-bottom: 1px solid #888;
+}
+
+
 /* .nav-end img {
   border-radius: 50%;
 } */
