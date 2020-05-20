@@ -29,3 +29,33 @@ main > div:last-of-type span {
   color: #383838;
   margin-bottom: 5px  !important;
 }
+
+.img-cont img {
+  width: 100%;
+}
+
+.arrows {
+  bottom: 0;
+  right: 0;
+  height: 35px;
+  padding: 0 10px 0 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.img-cont .arrows i {
+  font-size: 20px;
+  padding: 0;
+  width: 12.5px;
+  padding: 0 10px;
+}
+
+main .top-row {
+  border-top: 1px solid #d5d5d5;
+} 
+
+
+/* main .col-9 p {
+  display: flex;
+} */
