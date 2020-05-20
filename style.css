@@ -90,12 +90,9 @@ button {
 } */
 
 .input-group {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
-}
-
-.input-group {
-  max-width: 900px;
+  /* max-width: 900px; */
 }
 
 .form-control {

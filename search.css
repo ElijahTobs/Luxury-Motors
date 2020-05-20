@@ -4,6 +4,7 @@
 }
 
 .input-group {
+
   width: 100%;
   padding-top: 0 !important;
 }
@@ -14,6 +15,10 @@ main {
 
 main > div:first-of-type {
   border-right: 1px solid #d5d5d5;
+}
+
+main > div:last-of-type span {
+  font-weight: 700;
 }
 
 .brand p,
