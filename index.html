@@ -8,10 +8,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/f2b651e885.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
 </head>
 <body class="">
   <!-- Header -->
-  <header class="container-fluid row sticky-top m-0 nav-row d-flex justify-content-between align-items-baseline">
+  <header class="container-fluid row sticky-top m-0 p-0 nav-row d-flex justify-content-around align-items-baseline">
     <ul class="nav align-items-center">
       <li class="brand nav-item">
         <a href="#" class="nav-link">
@@ -38,9 +39,8 @@
       <li class="nav-item"><a href="#" class="nav-link">
         <button class="px-3 py-1 text-white">POST AN AD</button>
       </a></li>
-      <li class="nav-item"><a href="#" class="nav-link"></a></li>
     </ul>
-    <div class="nav-end d-flex align-items-center pr-5">
+    <div class="d-xl-block d-sm-none nav-end d-flex align-items-center pr-5">
       <a href="#"><i class="pr-5 far fa-envelope"></i></a>
       <span class="pr-5 text-white">Elijah Ayandokun</span>
       <img src="/img/profile-img.png" alt="">
@@ -48,10 +48,10 @@
   </header>
 
   <!-- Main content -->
-  <main class="container-fluid">
-    <div class="row">
+  <main class="container-fluid p-0">
+    <div class="">
       <div class="hero-section">
-        <h1 class="text-white text-center">LUXURY Rides</h1>
+        <h1 class="text-white text-center">LUXURY RIDES</h1>
         <p class="text-white text-center">Here at Luxury Rides, we sell luxury, comfort and durability</p>
 
         <div class="input-group pt-4 mb-3">
@@ -73,7 +73,7 @@
           </div>
           <input type="text" placeholder="Search our collection..." class="form-control">
           <input type="text" class="form-control">
-          <button class="px-3">Search</button>
+            <button class="px-3"><a class="text-white" href="search.html">Search</a></button>
           </div>
         </div>
       </div>
@@ -101,18 +101,12 @@
               </div>
             </div>
           </div>
-          <!-- <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Third slide">
-          </div> -->
         </div>
         <a class="carousel-control-prev position-absolute" href="#carouselExampleControls" role="button" data-slide="prev">
           <i class="fas fa-chevron-left prev-icon"></i>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next position-absolute" href="#carouselExampleControls" role="button" data-slide="prev">
+        <a class="carousel-control-next position-absolute" href="#carouselExampleControls" role="button" data-slide="next">
           <i class="fas fa-chevron-right next-icon"></i>
           <span class="sr-only">Next</span>
         </a>
@@ -329,7 +323,7 @@
         <i class="fas text-center fa-chevron-left prev-icon position-absolute"></i>
         <i class="fas text-center position-absolute fa-chevron-right next-icon"></i>
       </div>
-      <div class="car-container mt-5 position-relative">
+      <div class="car-container forth mt-5 position-relative">
         <div class="mb-2 section-info d-flex justify-content-between">
           <span class="font-weight-bold"><i class="fas fa-car"></i> Maserati <span class="font-weight-light">(Ghibli, GT Convertible and more)</span></span>
           <span class="view">View all</span>
@@ -362,7 +356,7 @@
           <section class="bg-white">
             <img src="https://www.maseratiusa.com/content/dam/maserati/international/Models/default/2019/quattroporte/quattroporte_front.jpg/jcr:content/renditions/cq5dam.web.1400.10000.jpeg" alt="Quattroporte">
             <div class="details">
-              <h4>2020 MASERATI QUATROPORTE</h4>
+              <h4>2020 MASERATI QUATRO-PORTE</h4>
               <p class="new">New</p>
               <p>from: Chicago, USA</p>
               <div class="d-flex justify-content-between price">
@@ -374,7 +368,7 @@
           <section class="bg-white">
             <img src="https://www.maseratiusa.com/content/dam/maserati/international/Models/default/2019/granturismo/granturismo_front.jpg/jcr:content/renditions/cq5dam.web.1400.10000.jpeg" alt="GRANTURISMO">
             <div class="details">
-              <h4>2020 MASERATI GRANTURISMO</h4>
+              <h4>2020 MASERATI GRANTU-RISMO</h4>
               <p class="new">New</p>
               <p>from: Chicago, USA</p>
               <div class="d-flex justify-content-between price">
@@ -386,7 +380,7 @@
           <section class="bg-white">
             <img src="https://www.maseratiusa.com/content/dam/maserati/international/Models/default/2019/grancabrio/grancabrio_front.jpg/jcr:content/renditions/cq5dam.web.1400.10000.jpeg" alt="GT convertible">
             <div class="details">
-              <h4>2020 MASERATI GT CONVERTIBLE</h4>
+              <h4>2020 MASERATI GT CONVER-TIBLE</h4>
               <p class="new">New</p>
               <p>from: Chicago, USA</p>
               <div class="d-flex justify-content-between price">
@@ -442,7 +436,9 @@
         <p><span>CURRENCY</span> <span class="right">Naira</span></p>
       </div>
     </div>
-    <footer class=" px-5 d-flex justify-content-between">
+    <footer class="px-5">
+      <hr>
+    <div class="footer-container px-4 d-flex justify-content-between">
       <p>Copyright&copy; 2020 Luxuryrides.com. All RIghts Reserved.Designed by Elijah Ayandokun</p>
       <div class="footer-icons">
         <i class="fab fa-yahoo"></i>
@@ -451,6 +447,7 @@
         <i class="fab fa-twitter"></i>
         <i class="fab fa-facebook-f"></i>
       </div>
+    </div>
     </footer>
   </main>
   

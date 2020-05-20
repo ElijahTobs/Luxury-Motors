@@ -1,0 +1,140 @@
+@media (max-width: 767px) {
+  .nav-end {
+    display: none !important;
+  }
+  
+  header button {
+    display: none;
+  }
+
+  /* header .nav-link {
+    padding: 5px 0;
+  } */
+
+  header img {
+    height: 25px;
+  }
+
+  .input-group {
+    width: 96%;
+  }
+
+  .hot-ad,
+  .hero-section {
+    display: none;
+  }
+
+  .cars-section {
+    margin-top: 0px !important;
+  }
+
+  .car-container {
+    margin-top: 20px !important;
+  }
+
+  .carndet {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .carndet section:last-of-type {
+    display: none;
+  }
+
+  .carndet img {
+    width: 100%;
+    padding: 0 10%;
+    /* justify-self: center; */
+  }
+
+  .car-container .prev-icon,
+  .car-container .next-icon {
+    display: none;
+  }
+
+  .footer-top {
+    display: block;
+  }
+
+  footer {
+    display: block;
+  }
+  
+
+  /* and (max-width: 767px) */
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  header {
+    display: flex;
+    font-size: 14px;
+    margin: 0 auto !important;
+    padding: 0;
+  }
+
+  header .nav-link {
+    padding: 10px !important;
+  }
+  
+  header button {
+    display: block;
+  }
+
+  .car-container .prev-icon,
+  .car-container .next-icon {
+    display: none;
+  }
+
+  .car-container {
+    width: 100%;
+  }
+
+  .details {
+    padding: 10px 6px;
+  }
+
+  .carndet img {
+    width: 100%;
+    height: 115px;
+  }
+
+  .hot-ad {
+    margin: 20px 0px 0px 10px;
+    margin: 0 auto;
+    /* font-size: 14px; */
+    padding: 0 39px;
+  }
+
+  .hot-ad img {
+    height: 200px;
+  }
+
+  .hot-ad .carousel-control-prev {
+    left: -75px;
+  }
+
+  .hot-ad .carousel-control-next {
+    right: -65px;
+  }
+
+  .footer-top {
+    width: 80%;
+    padding: 0 !important;
+    margin: 0 5px 16px 20px !important;
+  }
+
+  .categories,
+  .navigation {
+    width: fit-content;
+    /* padding: 0 20px; */
+    margin: 0 20px !important;
+  }
+
+  .other {
+    padding: 48px 10px 0 !important;
+  }
+  /* and (max-width: 991px) */
+}

@@ -1,0 +1,26 @@
+.hero-section {
+  align-items: flex-start;
+  padding: 0 80px;
+}
+
+.input-group {
+  width: 100%;
+  padding-top: 0 !important;
+}
+
+main {
+  background-color: #f6f6f6;
+}
+
+main > div:first-of-type {
+  border-right: 1px solid #d5d5d5;
+}
+
+.brand p,
+.type p,
+.price p {
+  font-weight: 700;
+  border-bottom: 1px solid #d5d5d5;
+  color: #383838;
+  margin-bottom: 5px  !important;
+}

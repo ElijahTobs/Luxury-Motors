@@ -3,10 +3,114 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f2b651e885.js" crossorigin="anonymous"></script>
   <title>Search results</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="search.css">
+  <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-  
+  <!-- Header -->
+  <header class="container-fluid row sticky-top m-0 p-0 nav-row d-flex justify-content-around align-items-baseline">
+    <ul class="nav align-items-center">
+      <li class="brand nav-item">
+        <a href="index.html" class="nav-link">
+          <img src="/img/brand-img.png" alt="brand logo">
+        <span class="text-white">Luxury Rides</span>
+        </a>
+      </li>
+      <li class="nav-item home">
+        <a href="index.html" class="nav-link">
+          <i class="fas fa-home"></i> &ThickSpace;
+        <span>Home</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          <i class="far fa-list-alt"></i> &ThickSpace;
+        <span>Collections</span>
+        </a>
+      </li>
+      <li class="nav-item"><a href="#" class="nav-link">
+        <i class="fas fa-shopping-cart"></i> &ThickSpace;
+        <span>Purchase list</span>
+      </a></li>
+      <li class="nav-item"><a href="#" class="nav-link">
+        <button class="px-3 py-1 text-white">POST AN AD</button>
+      </a></li>
+    </ul>
+    <div class="d-xl-block d-sm-none nav-end d-flex align-items-center pr-5">
+      <a href="#"><i class="pr-5 far fa-envelope"></i></a>
+      <span class="pr-5 text-white">Elijah Ayandokun</span>
+      <img src="/img/profile-img.png" alt="">
+    </div>
+  </header>
+  <div class="container-fluid p-0">
+    <div class="hero-section">
+      <h1 class="text-white">LUXURY RIDES</h1>
+      <p class="text-white">Search any of our fleet of cars, waiting to be yours!</p>
+
+      <div class="input-group pt-4 mb-3">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="btn-group">
+            <button type="button" class="btn">Car Collections</button>
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Lexus</a>
+              <a class="dropdown-item" href="#">Maserati</a>
+              <a class="dropdown-item" href="#">Jaguar</a>
+              <a class="dropdown-item" href="#">BMW</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Others</a>
+            </div>
+          </div>
+        </div>
+        <input type="text" placeholder="Search our collection..." class="form-control">
+        <input type="text" class="form-control">
+          <button class="px-3"><a class="text-white" href="search.html">Search</a></button>
+        </div>
+      </div>
+    </div>
+    <main class="row m-0">
+      <div class="col-2 ml-0">
+        <section class="obtain mt-2 d-flex align-items-center">
+          <input type="checkbox" name="rent" id=""> <span>&ThickSpace;Rent</span> &ThickSpace;
+          <input type="checkbox" name="ownership" id=""> <span>&ThickSpace;Ownership</span>
+        </section>
+        <section class="brand mt-3">
+          <p>Brand</p>
+          <input type="checkbox"> <span>Lexus</span><br>
+          <input type="checkbox"> <span>Maserati</span><br>
+          <input type="checkbox"> <span>BMW</span><br>
+          <input type="checkbox"> <span>Jaguar</span>
+        </section>
+        <section class="type mt-3">
+          <p>Type</p>
+          <input type="checkbox"> <span>SUV</span><br>
+          <input type="checkbox"> <span>Sedan</span><br>
+          <input type="checkbox"> <span>Convertible</span>
+        </section>
+        <section class="price mt-3">
+          <p>Price Range</p>
+          <input type="checkbox"> <span>$20,000 - $39,999</span><br>
+          <input type="checkbox"> <span>$40,000 - $59,999
+            <br>
+          </span>
+          <input type="checkbox"> <span>$60,000 - $79,999
+            <br>
+          <input type="checkbox"> <span>$80,000 - $89,999</span>
+            <br>
+          <input type="checkbox"> <span>$80,000+</span>
+        </section>
+      </div>
+      <div class="col-10">
+
+      </div>
+    </main>
+  </div>
 </body>
 </html>

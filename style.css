@@ -16,8 +16,17 @@ body {
 .container,
 .container-fluid {
   width: 100%;
-  padding: auto 0;
+  /* padding: auto 0; */
 }
+
+header {
+  font-size: 14px;
+}
+
+/* header {
+  margin: 0;
+  padding: 0;
+} */
 
 .nav-row {
   background-color: #383838;
@@ -31,7 +40,7 @@ body {
 
 .nav button {
   background-color: #d35266;
-  border: navajowhite;
+  /* border: navajowhite; */
 }
 
 .nav .home a {
@@ -119,7 +128,11 @@ button {
 }
 
 .hot-ad .carousel-control-prev {
-  left: -9rem;
+  left: -7rem;
+}
+
+.hot-ad .carousel-control-next {
+  right: -7rem;
 }
 
 .prev-icon,
@@ -166,6 +179,8 @@ button {
   background-color: #f3f3f3;
   border-top: #888 .5px solid;
   border-bottom: #888 .5px solid;
+  /* width: 100%;
+  padding: 5px; */
 }
 
 .car-container {
@@ -178,7 +193,7 @@ button {
 }
 
 .carndet img {
-  width: 223px;
+  width: 100%;
   height: 160px;
 }
 
@@ -214,6 +229,10 @@ button {
 .car-container .next-icon {
   bottom: 180px;
   right: -50px;
+}
+
+.car-container.forth .next-icon {
+  right: -55px;
 }
 
 .footer-top {
@@ -253,9 +272,9 @@ button {
   padding: 0;
 }
 
-.footer-top {
+/* .footer-top {
   border-bottom: 1px solid #888;
-}
+} */
 
 footer {
   color: #888;
