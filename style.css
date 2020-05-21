@@ -104,16 +104,22 @@ button {
   border-right: #d35266 1px solid;
 }
 
-button {
+button,
+.search-btn {
   background-color: #383838;
   color: #fff;
   border: none;
   border-left: #d35266 5px solid;
 }
 
+.search-btn {
+  padding: 7px 0;
+}
+
 .hot-ad {
   margin-top: 60px;
   margin-left: 90px;
+  width: 85%;
 }
 
 /* .hot-ad .carousel-item {
