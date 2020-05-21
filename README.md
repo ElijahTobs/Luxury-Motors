@@ -1,14 +1,17 @@
-# BOOTSTRAP PROJECT
+# HTML/CSS CAPSTONE PROJECT
 
-> One of @microverseinc mandatory projects that tests for the mastery of twitter bootstrap
+> @microverseinc HTML/CSS Capstone Project
 
-![screenshot](/screenshot.png)
+![screenshot](/page-screenshot.png)
 
 ## Major Features
 
-- A subscribe and sign-in button
 - Navigation bar
-- Different sections with images and text
+- Hero Section
+- A Search bar
+- An AD section
+- Carousel of Cars
+- Search page with results
 - Footer
 - Responsive webpage
 
@@ -22,12 +25,12 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/ElijahTobs/Newsweek-clone/project/index.html)
+[Live Demo Link](https://https://raw.githack.com/ElijahTobs/Luxury-Motors/luxury/index.html)
 
 ## Getting Started
 
-- Click on the [live demo link](https://raw.githack.com/ElijahTobs/Newsweek-clone/project/index.html) to checkout the webpage
-- You can also clone this [repo](https://github.com/ElijahTobs/Newsweek-clone)
+- Click on the [live demo link](https://raw.githack.com/ElijahTobs/Luxury-Motors/luxury/index.html) to checkout the webpage
+- You can also clone this [repo](https://github.com/ElijahTobs/Luxury-Motors)
 - After cloning, open with your preferred text editor and navigate to localhost:5500/index.html
 
 ## Authors
@@ -43,6 +46,10 @@
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](issues/).
+
+## Credit
+
+Special thanks to Mohammed Awad for the design
 
 ## Show your support
 
