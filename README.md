@@ -1,8 +1,9 @@
-# HTML/CSS CAPSTONE PROJECT
+# ONLINE SHOP
 
-> @microverseinc HTML/CSS Capstone Project
+> @microverseinc HTML/CSS Capstone Project.
+> In this project, I built an online shop for cars(SUVs,    Sedans and Convertibles).
 
-![screenshot](/img/page-screenshot.png)
+![screenshot](./img/page-screenshot.png)
 
 ## Major Features
 
