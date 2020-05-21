@@ -2,7 +2,7 @@
   .nav-end {
     display: none !important;
   }
-  
+
   header button {
     display: none;
   }
@@ -25,7 +25,7 @@
   }
 
   .cars-section {
-    margin-top: 0px !important;
+    margin-top: 0 !important;
   }
 
   .car-container {
@@ -45,6 +45,7 @@
   .carndet img {
     width: 100%;
     padding: 0 10%;
+
     /* justify-self: center; */
   }
 
@@ -60,15 +61,13 @@
   footer {
     display: block;
   }
-  
+
   main.row.m-0 {
     margin-right: 0 !important;
   }
 
   /* and (max-width: 767px) */
-
 }
-
 
 @media (min-width: 768px) and (max-width: 991px) {
   header {
@@ -81,7 +80,7 @@
   header .nav-link {
     padding: 10px !important;
   }
-  
+
   header button {
     display: block;
   }
@@ -105,8 +104,9 @@
   }
 
   .hot-ad {
-    margin: 20px 0px 0px 10px;
+    margin: 20px 0 0 10px;
     margin: 0 auto;
+
     /* font-size: 14px; */
     padding: 0 39px;
   }
@@ -132,6 +132,7 @@
   .categories,
   .navigation {
     width: fit-content;
+
     /* padding: 0 20px; */
     margin: 0 20px !important;
   }
@@ -139,5 +140,6 @@
   .other {
     padding: 48px 10px 0 !important;
   }
+
   /* and (max-width: 991px) */
 }

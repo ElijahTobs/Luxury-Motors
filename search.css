@@ -4,7 +4,6 @@
 }
 
 .input-group {
-
   width: 100%;
   padding-top: 0 !important;
 }
@@ -27,7 +26,7 @@ main > div:last-of-type span {
   font-weight: 700;
   border-bottom: 1px solid #d5d5d5;
   color: #383838;
-  margin-bottom: 5px  !important;
+  margin-bottom: 5px !important;
 }
 
 .img-cont img {
@@ -55,6 +54,7 @@ main > div:last-of-type span {
   border-top: 1px solid #d5d5d5;
   border-bottom: 1px solid #d5d5d5;
   padding-top: 15px;
+  padding-right: 20px;
 }
 
 .img-cont,
@@ -65,11 +65,6 @@ main > div:last-of-type span {
 .own {
   color: #d35266;
   font-weight: 700;
-}
-
-.top-row {
-  padding-right: 20px;
-  /* margin-right: 35px; */
 }
 
 .top-row p {
@@ -83,14 +78,6 @@ main > div:last-of-type span {
   color: #fff;
 }
 
-/* main div:last-of-type {
-  padding-right: 20px;
-} */
-
-/* main > div:last-of-type {
-  border-right: #d5d5d5 1px solid;
-} */
-
 main.row {
   margin-right: 45px !important;
   border-right: #d5d5d5 1px solid;
@@ -99,7 +86,3 @@ main.row {
 .search-btn {
   padding: 3px 7px;
 }
-
-/* main .col-9 p {
-  display: flex;
-} */

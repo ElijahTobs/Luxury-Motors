@@ -38,6 +38,14 @@ header {
   text-transform: uppercase;
 }
 
+button,
+.search-btn {
+  background-color: #383838;
+  color: #fff;
+  border: none;
+  border-left: #d35266 5px solid;
+}
+
 .nav button {
   background-color: #d35266;
 
@@ -72,6 +80,10 @@ header {
   font-size: 45px;
 }
 
+.btn {
+  border-right: #d35266 1px solid;
+}
+
 .hero-section .btn {
   background-color: #fff;
   border-radius: 0;
@@ -91,18 +103,6 @@ header {
   border-left: 1px solid #d35266;
 }
 
-.btn {
-  border-right: #d35266 1px solid;
-}
-
-button,
-.search-btn {
-  background-color: #383838;
-  color: #fff;
-  border: none;
-  border-left: #d35266 5px solid;
-}
-
 .search-btn {
   padding: 7px 0;
 }
@@ -112,10 +112,6 @@ button,
   margin-left: 90px;
   width: 85%;
 }
-
-/* .hot-ad .carousel-item {
-  padding-left: 90px;
-} */
 
 .hot-ad img {
   width: 100%;
@@ -202,6 +198,10 @@ button,
   padding: 15px 20px;
 }
 
+footer p {
+  font-size: 12px;
+}
+
 .view,
 .new,
 .price p {
@@ -269,22 +269,10 @@ button,
   padding: 0;
 }
 
-/* .footer-top {
-  border-bottom: 1px solid #888;
-} */
-
 footer {
   color: #888;
-}
-
-footer p {
-  font-size: 12px;
 }
 
 .footer-icons i {
   padding-left: 20px;
 }
-
-/* .nav-end img {
-  border-radius: 50%;
-} */
