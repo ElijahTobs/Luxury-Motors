@@ -51,10 +51,50 @@ main > div:last-of-type span {
   padding: 0 10px;
 }
 
-main .top-row {
+.top-row {
   border-top: 1px solid #d5d5d5;
-} 
+  border-bottom: 1px solid #d5d5d5;
+  padding-top: 15px;
+}
 
+.img-cont,
+.top-row img {
+  height: 100%;
+}
+
+.own {
+  color: #d35266;
+  font-weight: 700;
+}
+
+.top-row {
+  padding-right: 20px;
+  /* margin-right: 35px; */
+}
+
+.top-row p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.style-price {
+  background-color: #d35266;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+/* main div:last-of-type {
+  padding-right: 20px;
+} */
+
+/* main > div:last-of-type {
+  border-right: #d5d5d5 1px solid;
+} */
+
+main.row {
+  margin-right: 45px !important;
+  border-right: #d5d5d5 1px solid;
+}
 
 /* main .col-9 p {
   display: flex;
