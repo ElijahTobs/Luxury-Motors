@@ -96,6 +96,10 @@ main.row {
   border-right: #d5d5d5 1px solid;
 }
 
+.search-btn {
+  padding: 3px 7px;
+}
+
 /* main .col-9 p {
   display: flex;
 } */
