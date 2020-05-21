@@ -3,7 +3,7 @@
 > @microverseinc HTML/CSS Capstone Project.
 > In this project, I built an online shop for cars(SUVs,    Sedans and Convertibles).
 
-![screenshot](./img/page-screenshot.png)
+![screenshot](./page-screenshot.png)
 
 ## Major Features
 
