@@ -2,7 +2,7 @@
 
 > @microverseinc HTML/CSS Capstone Project
 
-![screenshot](/page-screenshot.png)
+![screenshot](/img/page-screenshot.png)
 
 ## Major Features
 
