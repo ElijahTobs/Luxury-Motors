@@ -50,7 +50,7 @@ Feel free to check the [issues page](issues/).
 
 ## Credit
 
-Special thanks to Mohammed Awad for the design
+Special thanks to Mohammed Awad for the [design](https://www.behance.net/gallery/24796463/ZATTIX)
 
 ## Show your support
 
