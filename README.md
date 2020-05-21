@@ -17,6 +17,7 @@
 - HTML,
 - CSS
 - Font Awesome icons
+- Google fonts
 - Bootstrap framework
 
 ## Live Demo

@@ -3,9 +3,8 @@
 } */
 
 /* Montserrat in place of Gotham */
+
 /* ROboto Condensed in place of Helvetica Neue */
-
-
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -16,6 +15,7 @@ body {
 .container,
 .container-fluid {
   width: 100%;
+
   /* padding: auto 0; */
 }
 
@@ -40,6 +40,7 @@ header {
 
 .nav button {
   background-color: #d35266;
+
   /* border: navajowhite; */
 }
 
@@ -52,7 +53,7 @@ header {
 }
 
 .nav-item a:hover,
-.nav-end a:hover{
+.nav-end a:hover {
   color: #fff;
 }
 
@@ -74,25 +75,15 @@ header {
 .hero-section .btn {
   background-color: #fff;
   border-radius: 0;
-  /* border: none; */
-  /* max-width: 65px; */
-  /* height: 35px; */
-  /* padding-top: 4px; */
 }
 
 .hot-ad #carouselExampleControls {
   width: 100%;
 }
 
-/* .hero-section input,
-button {
-  height: 35px;
-} */
-
 .input-group {
   width: 85%;
   margin: 0 auto;
-  /* max-width: 900px; */
 }
 
 .form-control {
@@ -180,8 +171,9 @@ button,
 
 .cars-section {
   background-color: #f3f3f3;
-  border-top: #888 .5px solid;
-  border-bottom: #888 .5px solid;
+  border-top: #888 0.5px solid;
+  border-bottom: #888 0.5px solid;
+
   /* width: 100%;
   padding: 5px; */
 }
@@ -192,7 +184,7 @@ button,
 }
 
 .section-info {
-  border-bottom: #888 .5px solid;
+  border-bottom: #888 0.5px solid;
 }
 
 .carndet img {
@@ -210,20 +202,22 @@ button,
   padding: 15px 20px;
 }
 
-.view, .new, .price p {
+.view,
+.new,
+.price p {
   color: #d35266;
   font-weight: 700;
 }
 
-.car-container .prev-icon, 
+.car-container .prev-icon,
 .car-container .next-icon {
   border-radius: 0;
   color: #383838;
 }
 
-
 .car-container .prev-icon {
   /* margin: auto 0; */
+
   /* line-height: auto; */
   bottom: 180px;
   left: -50px;
@@ -245,7 +239,7 @@ button,
 
 .right {
   border: 1px solid #888;
-  padding: 4px 0px;
+  padding: 4px 0;
   width: 100px;
   text-align: center;
 }
