@@ -1,7 +1,10 @@
 # ONLINE SHOP
 
-> @microverseinc HTML/CSS Capstone Project.
-> In this project, I built an online shop for cars(SUVs,    Sedans and Convertibles).
+In this @microverseinc HTML/CSS Capstone Project, I built an online shop for cars(SUVs, Sedans and Convertibles).
+
+The project has two pages: The Home page and the search results page.
+
+It was built with Bootstrap, Grid and Flexbox.
 
 ![screenshot](/page_image.png)
 
