@@ -26,7 +26,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://https://raw.githack.com/ElijahTobs/Luxury-Motors/luxury/index.html)
+[Live Demo Link](https://raw.githack.com/ElijahTobs/Luxury-Motors/luxury/index.html)
 
 ## Getting Started
 
