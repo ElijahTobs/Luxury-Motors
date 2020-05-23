@@ -96,6 +96,8 @@
   .carndet img {
     padding: 0 15px;
     margin: auto;
+    width: 100%;
+    height: 115px;
   }
 
   section.bg-white {
@@ -110,11 +112,6 @@
 
   .details {
     padding: 10px 6px;
-  }
-
-  .carndet img {
-    width: 100%;
-    height: 115px;
   }
 
   .hot-ad {
