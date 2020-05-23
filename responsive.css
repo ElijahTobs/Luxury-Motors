@@ -128,4 +128,8 @@
   .other {
     padding: 48px 10px 0 !important;
   }
+
+  main.row.m-0 {
+    margin-right: 0 !important;
+  }
 }
