@@ -41,8 +41,6 @@
   .carndet img {
     width: 100%;
     padding: 0 10%;
-
-    /* justify-self: center; */
   }
 
   .car-container .prev-icon,
@@ -61,8 +59,6 @@
   main.row.m-0 {
     margin-right: 0 !important;
   }
-
-  /* and (max-width: 767px) */
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -102,8 +98,6 @@
   .hot-ad {
     margin: 20px 0 0 10px;
     margin: 0 auto;
-
-    /* font-size: 14px; */
     padding: 0 39px;
   }
 
@@ -128,14 +122,10 @@
   .categories,
   .navigation {
     width: fit-content;
-
-    /* padding: 0 20px; */
     margin: 0 20px !important;
   }
 
   .other {
     padding: 48px 10px 0 !important;
   }
-
-  /* and (max-width: 991px) */
 }
