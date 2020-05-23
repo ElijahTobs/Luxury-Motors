@@ -82,6 +82,22 @@
     display: none;
   }
 
+  .carndet {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* .carndet img {
+    width: 80% !important;
+    margin: auto;
+  } */
+
+  section.bg-white {
+    width: 90%;
+    margin: auto;
+  }
+
   .car-container {
     width: 100%;
   }
