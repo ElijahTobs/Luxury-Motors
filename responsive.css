@@ -88,10 +88,10 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  /* .carndet img {
-    width: 80% !important;
+  .carndet img {
+    padding: 0 20px;
     margin: auto;
-  } */
+  }
 
   section.bg-white {
     width: 90%;
