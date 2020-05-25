@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f2b651e885.js" crossorigin="anonymous"></script>
+  <title>Search results</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="search.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="d-none container-fluid row searchpage sticky-top m-0 p-0 nav-row d-md-flex justify-content-around align-items-baseline">
+    <ul class="nav align-items-center">
+      <li class="brand nav-item">
+        <a href="index.html" class="nav-link">
+          <img src="/img/brand-img.png" alt="brand logo">
+        <span class="text-white">Luxury Rides</span>
+        </a>
+      </li>
+      <li class="nav-item home">
+        <a href="index.html" class="nav-link">
+          <i class="fas fa-home"></i> &ThickSpace;
+        <span>Home</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          <i class="far fa-list-alt"></i> &ThickSpace;
+        <span>Collections</span>
+        </a>
+      </li>
+      <li class="nav-item"><a href="#" class="nav-link">
+        <i class="fas fa-shopping-cart"></i> &ThickSpace;
+        <span>Purchase list</span>
+      </a></li>
+      <li class="nav-item">
+        <button class="px-3 py-1 text-white">POST AN AD</button>
+      </li>
+    </ul>
+    <div class="d-xl-block d-sm-none nav-end d-flex align-items-center pr-5">
+      <a href="#"><i class="pr-5 far fa-envelope"></i></a>
+      <span class="pr-5 text-white">Elijah Ayandokun</span>
+      <img src="/img/profile-img.png" alt="">
+    </div>
+  </header>
+  <div class="container-fluid p-0">
+    <div class="d-flex hero-section">
+      <h1 class="d-none d-md-block text-white">LUXURY RIDES</h1>
+      <p class="d-none d-md-block text-white">Search any of our fleet of cars, waiting to be yours!</p>
+
+      <div class="input-group  pt-4 mb-3">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="btn-group">
+            <button type="button" class="btn">Lexus</button>
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Maserati</a>
+              <a class="dropdown-item" href="#">Jaguar</a>
+              <a class="dropdown-item" href="#">BMW</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Others</a>
+            </div>
+          </div>
+          </div>
+          <input type="text" placeholder="Sedan" class="form-control">
+          <input type="text" placeholder="Lagos" class="form-control">
+          <a class="search-btn align-items-center" href="search.html">Search</a>
+        </div>
+      </div>
+    </div>
+    <main class="row m-0">
+      <div class="col-3 m-0 d-none d-lg-block">
+        <div class="obtain mt-2 d-lg-flex align-items-center">
+          <div class="input-1">
+            <input type="checkbox" name="rent"> <span>&ThickSpace;Rent</span> &ThickSpace;
+          </div>
+          <div class="input-2">
+            <input type="checkbox" name="ownership"> <span>&ThickSpace;Ownership</span>
+          </div>
+        </div>
+        <div class="brand mt-3">
+          <p>Brand</p>
+          <input type="checkbox"> <span>Lexus</span><br>
+          <input type="checkbox"> <span>Maserati</span><br>
+          <input type="checkbox"> <span>BMW</span><br>
+          <input type="checkbox"> <span>Jaguar</span>
+        </div>
+        <div class="type mt-3">
+          <p>Type</p>
+          <input type="checkbox"> <span>SUV</span><br>
+          <input type="checkbox"> <span>Sedan</span><br>
+          <input type="checkbox"> <span>Convertible</span>
+        </div>
+        <div class="price mt-3">
+          <p>Price Range</p>
+          <input type="checkbox"> <span>$20,000 - $39,999</span><br>
+          <input type="checkbox"> <span>$40,000 - $59,999</span>
+            <br>
+          <input type="checkbox"> <span>$60,000 - $79,999</span>
+            <br>
+          <input type="checkbox"> <span>$80,000 - $89,999</span>
+            <br>
+          <input type="checkbox"> <span>$80,000+</span>
+          </div>
+      </div>
+      <div class="col-12 col-lg-9 ">
+        <p class="pt-3"><span>47 </span>Results for <span>"Sedan" </span>at <span>Lagos</span> in Category <span>Lexus</span></p>
+        <div class="row pb-2 top-row">
+          <div class="col-4 p-0">
+            <div class="img-cont p-0 position-relative">
+              <img src="https://www.lexus.com/cm-img/gallery/2019/LX/Lexus-LX-570-nebula-gray-gallery-png2-624x437-LEX-LXG-MY19-0004-01.png" alt="lx-570">
+              <div class="position-absolute pr-3 arrows">
+                <i class="fas fa-chevron-left"></i>
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 p-0 pl-3">
+            <div class="car-name d-flex justify-content-between align-items-baseline">
+              <p class="font-weight-bold">Lexus LX 570</p>
+              <i class="far fa-plus-square"></i>
+            </div>
+            <p class="own">Buy</p>
+            <p class="info">
+              With generous eight-passenger seating and unmatched off-road capability, the three-row 2020 LX 570 can tackle even the toughest terrain. Meanwhile, the available Mark Levinson® 19-speaker system provides the perfect soundtrack for your daily adventures.
+            </p>
+            <p class="location"><span class="font-weight-bold">Location: </span>1, Elijah Avenue, Lagos, NG</p>
+            <div class="date d-flex justify-content-between align-items-baseline">
+              <p>27th April, 2020</p>
+              <p class="style-price">$86,480</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-1 pb-2 top-row">
+          <div class="col-4 p-0">
+            <div class="img-cont p-0 position-relative">
+              <img src="https://www.lexus.com/cm-img/gallery/2019/LX/Lexus-LX-570-nebula-gray-gallery-png2-624x437-LEX-LXG-MY19-0004-01.png" alt="lx-570">
+              <div class="position-absolute pr-3 arrows">
+                <i class="fas fa-chevron-left"></i>
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 p-0 pl-3">
+            <div class="car-name d-flex justify-content-between align-items-baseline">
+              <p class="font-weight-bold">Lexus LX 570</p>
+              <i class="far fa-plus-square"></i>
+            </div>
+            <p class="own">Buy</p>
+            <p class="info">
+              With generous eight-passenger seating and unmatched off-road capability, the three-row 2020 LX 570 can tackle even the toughest terrain. Meanwhile, the available Mark Levinson® 19-speaker system provides the perfect soundtrack for your daily adventures.
+            </p>
+            <p class="location"><span class="font-weight-bold">Location: </span>1, Elijah Avenue, Lagos, NG</p>
+            <div class="date d-flex justify-content-between align-items-baseline">
+              <p>27th April, 2020</p>
+              <p class="style-price">$86,480</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-1 pb-2 top-row">
+          <div class="col-4 p-0">
+            <div class="img-cont p-0 position-relative">
+              <img src="https://www.lexus.com/cm-img/gallery/2019/LX/Lexus-LX-570-nebula-gray-gallery-png2-624x437-LEX-LXG-MY19-0004-01.png" alt="lx-570">
+              <div class="position-absolute pr-3 arrows">
+                <i class="fas fa-chevron-left"></i>
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 p-0 pl-3">
+            <div class="car-name d-flex justify-content-between align-items-baseline">
+              <p class="font-weight-bold">Lexus LX 570</p>
+              <i class="far fa-plus-square"></i>
+            </div>
+            <p class="own">Buy</p>
+            <p class="info">
+              With generous eight-passenger seating and unmatched off-road capability, the three-row 2020 LX 570 can tackle even the toughest terrain. Meanwhile, the available Mark Levinson® 19-speaker system provides the perfect soundtrack for your daily adventures.
+            </p>
+            <p class="location"><span class="font-weight-bold">Location: </span>1, Elijah Avenue, Lagos, NG</p>
+            <div class="date d-flex justify-content-between align-items-baseline">
+              <p>27th April, 2020</p>
+              <p class="style-price">$86,480</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-1 pb-2 top-row">
+          <div class="col-4 p-0">
+            <div class="img-cont p-0 position-relative">
+              <img src="https://www.lexus.com/cm-img/gallery/2019/LX/Lexus-LX-570-nebula-gray-gallery-png2-624x437-LEX-LXG-MY19-0004-01.png" alt="lx-570">
+              <div class="position-absolute pr-3 arrows">
+                <i class="fas fa-chevron-left"></i>
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 p-0 pl-3">
+            <div class="car-name d-flex justify-content-between align-items-baseline">
+              <p class="font-weight-bold">Lexus LX 570</p>
+              <i class="far fa-plus-square"></i>
+            </div>
+            <p class="own">Buy</p>
+            <p class="info">
+              With generous eight-passenger seating and unmatched off-road capability, the three-row 2020 LX 570 can tackle even the toughest terrain. Meanwhile, the available Mark Levinson® 19-speaker system provides the perfect soundtrack for your daily adventures.
+            </p>
+            <p class="location"><span class="font-weight-bold">Location: </span>1, Elijah Avenue, Lagos, NG</p>
+            <div class="date d-flex justify-content-between align-items-baseline">
+              <p>27th April, 2020</p>
+              <p class="style-price">$86,480</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-1 pb-2 mb-5 top-row">
+          <div class="col-4 p-0">
+            <div class="img-cont p-0 position-relative">
+              <img src="https://www.lexus.com/cm-img/gallery/2019/LX/Lexus-LX-570-nebula-gray-gallery-png2-624x437-LEX-LXG-MY19-0004-01.png" alt="lx-570">
+              <div class="position-absolute pr-3 arrows">
+                <i class="fas fa-chevron-left"></i>
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 p-0 pl-3">
+            <div class="car-name d-flex justify-content-between align-items-baseline">
+              <p class="font-weight-bold">Lexus LX 570</p>
+              <i class="far fa-plus-square"></i>
+            </div>
+            <p class="own">Buy</p>
+            <p class="info">
+              With generous eight-passenger seating and unmatched off-road capability, the three-row 2020 LX 570 can tackle even the toughest terrain. Meanwhile, the available Mark Levinson® 19-speaker system provides the perfect soundtrack for your daily adventures.
+            </p>
+            <p class="location"><span class="font-weight-bold">Location: </span>1, Elijah Avenue, Lagos, NG</p>
+            <div class="date d-flex justify-content-between align-items-baseline">
+              <p>27th April, 2020</p>
+              <p class="style-price">$86,480</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+  <div class="container-fluid px-5 pt-5 footer-top mb-3">
+    <div class="about">
+      <div class="top d-flex align-items-center">
+        <img src="/img/nobg-col.PNG" alt="">
+        <h5 class="m-0 font-weight-bold">LUXURY RIDES</h5>
+      </div>
+      <p class="ml-1">
+        <span class="font-weight-bold">Luxury Rides</span> is a very trusted and reliable online market store where you get luxurious and durable autos at pocket-friendly prices. The company deals exclusively in brand new passenger and commercial vehicles. Its stable of brands comprises Maserati, Lexus, Jaguar and BMW.
+      </p>
+    </div>
+    <div class="mx-5 categories">
+      <h5 class="change">CATEGORIES</h5>
+      <ul>
+        <li>New Cars</li>
+        <li>2020 Cars</li>
+        <li>2019 Cars</li>
+        <li>lexus</li>
+        <li>Maserati</li>
+        <li>BMW</li>
+        <li>Jaguar</li>
+        <li>Mercedes</li>
+        <li>Ford</li>
+        <li>Toyota</li>
+      </ul>
+    </div>
+    <div class="mx-5 navigation">
+      <h5 class="change">NAVIGATION</h5>
+      <ul>
+        <li>Home</li>
+        <li>Sign In</li>
+        <li>Sign Up</li>
+        <li>Terms & Conditions</li>
+        <li>FAQ</li>
+        <li>Help</li>
+      </ul>
+    </div>
+    <div class="other px-4 pt-5">
+      <p><span>COUNTRY</span> <span class="right">Nigeria</span></p>
+      <p><span>LANGUAGE</span> <span class="right">Yoruba</span></p>
+      <p><span>CURRENCY</span> <span class="right">Naira</span></p>
+    </div>
+  </div>
+  <footer class="px-5">
+    <hr>
+    <div class="footer-container px-4 d-flex justify-content-between">
+      <p>Copyright&copy; 2020 Luxuryrides.com. All RIghts Reserved.Designed by Elijah Ayandokun</p>
+      <div class="footer-icons">
+        <i class="fab fa-yahoo"></i>
+        <i class="fab fa-google-plus-g"></i>
+        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

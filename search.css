@@ -1,0 +1,87 @@
+.hero-section {
+  align-items: flex-start;
+  padding: 0 80px;
+}
+
+.input-group {
+  width: 100%;
+  padding-top: 0 !important;
+}
+
+main {
+  background-color: #f6f6f6;
+}
+
+main > div:first-of-type {
+  border-right: 1px solid #d5d5d5;
+}
+
+main > div:last-of-type span {
+  font-weight: 700;
+}
+
+.brand p,
+.type p,
+.price p {
+  font-weight: 700;
+  border-bottom: 1px solid #d5d5d5;
+  color: #383838;
+  margin-bottom: 5px !important;
+}
+
+.img-cont img {
+  width: 100%;
+}
+
+.arrows {
+  bottom: 0;
+  right: 0;
+  height: 35px;
+  padding: 0 10px 0 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.img-cont .arrows i {
+  font-size: 20px;
+  width: 12.5px;
+  padding: 0 10px;
+}
+
+.top-row {
+  border-top: 1px solid #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
+  padding-top: 15px;
+  padding-right: 20px;
+}
+
+.img-cont,
+.top-row img {
+  height: 100%;
+}
+
+.own {
+  color: #d35266;
+  font-weight: 700;
+}
+
+.top-row p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.style-price {
+  background-color: #d35266;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+main.row {
+  margin-right: 45px !important;
+  border-right: #d5d5d5 1px solid;
+}
+
+.search-btn {
+  padding: 3px 7px;
+}

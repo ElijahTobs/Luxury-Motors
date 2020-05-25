@@ -1,0 +1,259 @@
+/* Montserrat in place of Gotham */
+
+/* ROboto Condensed in place of Helvetica Neue */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1355px;
+  margin: 0 auto;
+}
+
+.container,
+.container-fluid {
+  width: 100%;
+}
+
+header {
+  font-size: 14px;
+}
+
+.nav-row {
+  background-color: #383838;
+  color: #888;
+}
+
+.nav-row a {
+  color: #888;
+  text-transform: uppercase;
+}
+
+button,
+.search-btn {
+  background-color: #383838;
+  color: #fff;
+  border: none;
+  border-left: #d35266 5px solid;
+}
+
+.nav button {
+  background-color: #d35266;
+}
+
+.nav .home a {
+  color: #d35266;
+}
+
+.nav li {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-item a:hover,
+.nav-end a:hover {
+  color: #fff;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 260px;
+  background-color: #d35266;
+  width: 100%;
+}
+
+.hero-section h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.btn {
+  border-right: #d35266 1px solid;
+}
+
+.hero-section .btn {
+  background-color: #fff;
+  border-radius: 0;
+}
+
+.hot-ad #carouselExampleControls {
+  width: 100%;
+}
+
+.input-group {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.form-control {
+  border: none;
+  border-left: 1px solid #d35266;
+}
+
+.search-btn {
+  padding: 7px 0;
+}
+
+.hot-ad {
+  margin-top: 60px;
+  margin-left: 90px;
+  width: 85%;
+}
+
+.hot-ad img {
+  width: 100%;
+}
+
+.hot-ad .carousel-control-prev {
+  left: -7rem;
+}
+
+.hot-ad .carousel-control-next {
+  right: -7rem;
+}
+
+.prev-icon,
+.next-icon {
+  color: #d35266;
+  font-size: 30px;
+  border: #383838 1px solid;
+  border-radius: 50%;
+  padding: 5px;
+  width: 50px;
+}
+
+.hot-ad h2 {
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #d35266;
+}
+
+.purchase span {
+  background-color: #d35266;
+  color: #fff;
+  padding: 10px;
+}
+
+.arrows {
+  background-color: #383838;
+  padding: 0;
+}
+
+.image .arrows {
+  bottom: 0;
+  right: 0;
+}
+
+.arrows i {
+  color: #d35266;
+  font-size: 30px;
+  border-radius: 50%;
+  padding: 5px;
+  width: 30px;
+}
+
+.cars-section {
+  background-color: #f3f3f3;
+  border-top: #888 0.5px solid;
+  border-bottom: #888 0.5px solid;
+}
+
+.car-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section-info {
+  border-bottom: #888 0.5px solid;
+}
+
+.carndet img {
+  width: 100%;
+  height: 160px;
+}
+
+.carndet {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.details {
+  padding: 15px 20px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+.view,
+.new,
+.price p {
+  color: #d35266;
+  font-weight: 700;
+}
+
+.car-container .prev-icon,
+.car-container .next-icon {
+  border-radius: 0;
+  color: #383838;
+}
+
+.car-container .prev-icon {
+  bottom: 180px;
+  left: -50px;
+}
+
+.car-container .next-icon {
+  bottom: 180px;
+  right: -50px;
+}
+
+.car-container.forth .next-icon {
+  right: -55px;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.right {
+  border: 1px solid #888;
+  padding: 4px 0;
+  width: 100px;
+  text-align: center;
+}
+
+.other p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.other span:not(.right),
+.change {
+  color: #d35266;
+  font-weight: 700;
+}
+
+.change {
+  border-bottom: 1px solid #d35266;
+  padding-bottom: 7px;
+}
+
+.footer-top li {
+  list-style: none;
+}
+
+.footer-top ul {
+  padding: 0;
+}
+
+footer {
+  color: #888;
+}
+
+.footer-icons i {
+  padding-left: 20px;
+}
