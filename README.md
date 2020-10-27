@@ -2,6 +2,7 @@
 
 In this @microverseinc HTML/CSS Capstone Project, I built an online shop for cars(SUVs, Sedans and Convertibles).
 
+
 The project has two pages: The Home page and the search results page.
 
 It was built with Bootstrap, Grid and Flexbox.
@@ -21,7 +22,7 @@ It was built with Bootstrap, Grid and Flexbox.
 
 ## Built With
 
-- HTML,
+- HTML
 - CSS
 - Font Awesome icons
 - Google fonts
@@ -37,7 +38,7 @@ It was built with Bootstrap, Grid and Flexbox.
 - You can also clone this [repo](https://github.com/ElijahTobs/Luxury-Motors)
 - After cloning, open with your preferred text editor and navigate to localhost:5500/index.html
 
-## Authors
+## Author
 
 👤 **Elijah Ayandokun**
 
@@ -63,7 +64,6 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
 
 ## 📝 License
 
